@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const Hero = () => {
     return (
-        <section className="flex items-center lg:justify-between px-4  flex-wrap justify-center gap-x-4 gap-y-5 bg-gradient-to-br from-pink-300/40 to-blue-300/40 w-screen h-screen md:px-20 py-10">
+        <section className="flex items-center lg:justify-between px-4  flex-wrap justify-center gap-x-4 gap-y-5 bg-gradient-to-br from-pink-300/40 to-blue-300/40 w-screen h-screen md:px-20 py-[16rem] ">
             <div className="w-full md:w-[60%] lg:w-[50%] text-center">
                 <h1 className="text-4xl md:text-7xl font-bold text-center">
                     Save and Organize Your <br className="hidden lg:block" />{' '}
