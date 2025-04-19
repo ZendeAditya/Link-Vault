@@ -175,7 +175,9 @@ const Features = () => {
                             {featuresList.map((feature, i) => (
                                 <div
                                     key={i}
-                                    ref={(el) => (refs.current[i] = el)}
+                                    ref={(el) => {
+                                        refs.current[i] = el
+                                    }}
                                     className="min-h-[20vh] flex items-center justify-center px-10"
                                 >
                                     <div
