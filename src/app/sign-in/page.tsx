@@ -1,6 +1,7 @@
 import React from 'react'
 import { Metadata } from 'next'
 import SignIn from './_components/SignIn'
+import Navbar from '@/components/landing/Navbar'
 
 export const metadata: Metadata = {
     title: 'Sign In - Link Vault',
@@ -8,7 +9,12 @@ export const metadata: Metadata = {
 }
 
 const SignInPage = () => {
-    return <SignIn />
+    return (
+        <div className="relative">
+            <Navbar />
+            <SignIn />
+        </div>
+    )
 }
 
 export default SignInPage
