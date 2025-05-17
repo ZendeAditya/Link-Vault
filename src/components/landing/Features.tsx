@@ -3,10 +3,10 @@
 import { useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
 import type { StaticImageData } from 'next/image'
-import Privacy from './../../../public/assets/Features/Privacy.avif'
-import Cloud from './../../../public/assets/Features/cloud.avif'
+import Privacy from './../../../public/assets/Features/Privacy.png'
+import Cloud from './../../../public/assets/Features/cloud.png'
 import SmartTags from './../../../public/assets/Features/tagImage.jpg'
-import QuickSave from './../../../public/assets/Features/saveLink.avif'
+import QuickSave from './../../../public/assets/Features/saveLink.png'
 
 type FeaturesType = {
     title: string
