@@ -5,29 +5,8 @@
     {
       "idx": 0,
       "version": "7",
-      "when": 1745826579473,
-      "tag": "0000_wealthy_mesmero",
-      "breakpoints": true
-    },
-    {
-      "idx": 1,
-      "version": "7",
-      "when": 1745827580607,
-      "tag": "0001_quiet_emma_frost",
-      "breakpoints": true
-    },
-    {
-      "idx": 2,
-      "version": "7",
-      "when": 1746623031580,
-      "tag": "0002_colossal_nebula",
-      "breakpoints": true
-    },
-    {
-      "idx": 3,
-      "version": "7",
-      "when": 1746623198641,
-      "tag": "0003_messy_aaron_stack",
+      "when": 1747462942468,
+      "tag": "0000_unknown_prodigy",
       "breakpoints": true
     }
   ]

@@ -12,7 +12,7 @@ export const SignOut = () => {
             <Button
                 type="submit"
                 variant="outline"
-                className="w-full h-10 bg-black"
+                className="w-52 h-10 cursor-pointer bg-gray-600  hover:bg-gray-800 text-white hover:text-white border-gray-800 hover:border-gray-800"
             >
                 Sign out
             </Button>
